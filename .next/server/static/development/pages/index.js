@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -111,11 +111,32 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 const Home = () => {
-  return __jsx("div", null, "this is home page", __jsx(_routes__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    route: "/about"
-  }, "About"), __jsx(_routes__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    route: "/contact"
-  }, "Contact"));
+  const divStyle = {
+    textAlign: "center"
+  },
+        buttonStyle = {
+    margin: "10px",
+    padding: "10px",
+    backgroundColor: "#c1c2dd",
+    border: "1px solid #f7f7f7",
+    borderRadius: "5px",
+    cursor: "pointer"
+  };
+  return __jsx("div", {
+    style: divStyle
+  }, __jsx("button", {
+    style: buttonStyle,
+    type: "button",
+    onClick: () => _routes__WEBPACK_IMPORTED_MODULE_1__["Router"].pushRoute("/about")
+  }, "Go to about page"), __jsx("button", {
+    style: buttonStyle,
+    type: "button",
+    onClick: () => _routes__WEBPACK_IMPORTED_MODULE_1__["Router"].pushRoute("/contact")
+  }, "Go to contact page"), __jsx("button", {
+    style: buttonStyle,
+    type: "button",
+    onClick: () => _routes__WEBPACK_IMPORTED_MODULE_1__["Router"].pushRoute("/user")
+  }, "Go to user List"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
@@ -132,18 +153,18 @@ const Home = () => {
 const routes = __webpack_require__(/*! next-routes */ "next-routes");
 
 module.exports = routes().add('home', '/', 'index') // description   routes  page
-.add('About Us', '/about', 'aboutUs').add('Contact Us', '/contact', 'contactUs');
+.add('About Us', '/about', 'aboutUs').add('Contact Us', '/contact', 'contactUs').add('User List', '/user', 'user');
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/startxlabs/Desktop/Dummy Project/NextProject/nextjstraning/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\shahr\Desktop\Project\MyProject\NextJs\nextjs_hello_world\pages\index.js */"./pages/index.js");
 
 
 /***/ }),

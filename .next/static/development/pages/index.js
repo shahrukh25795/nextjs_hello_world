@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js":
 /*!***********************************************************************!*\
@@ -5308,12 +5308,12 @@ function pathToRegexp (path, keys, options) {
 
 /***/ "./node_modules/next/dist/build/polyfills/object-assign.js":
 /*!***********************************************************************************************************************!*\
-  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_5f137288facb1107b491 ***!
+  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_7ff8e5d585f359d44ab5 ***!
   \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491 */ "dll-reference dll_5f137288facb1107b491"))("./node_modules/next/dist/build/polyfills/object-assign.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_7ff8e5d585f359d44ab5 */ "dll-reference dll_7ff8e5d585f359d44ab5"))("./node_modules/next/dist/build/polyfills/object-assign.js");
 
 /***/ }),
 
@@ -5329,10 +5329,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fstartxlabs%2FDesktop%2FDummy%20Project%2FNextProject%2Fnextjstraning%2Fpages%2Findex.js!./":
-/*!**************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fstartxlabs%2FDesktop%2FDummy%20Project%2FNextProject%2Fnextjstraning%2Fpages%2Findex.js ***!
-  \**************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cshahr%5CDesktop%5CProject%5CMyProject%5CNextJs%5Cnextjs_hello_world%5Cpages%5Cindex.js!./":
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cshahr%5CDesktop%5CProject%5CMyProject%5CNextJs%5Cnextjs_hello_world%5Cpages%5Cindex.js ***!
+  \******************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7762,12 +7762,12 @@ module.exports = exports['default'];
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_5f137288facb1107b491 ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_7ff8e5d585f359d44ab5 ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491 */ "dll-reference dll_5f137288facb1107b491"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_7ff8e5d585f359d44ab5 */ "dll-reference dll_7ff8e5d585f359d44ab5"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -8402,12 +8402,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_5f137288facb1107b491 ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_7ff8e5d585f359d44ab5 ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491 */ "dll-reference dll_5f137288facb1107b491"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_7ff8e5d585f359d44ab5 */ "dll-reference dll_7ff8e5d585f359d44ab5"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -8878,12 +8878,12 @@ if (false) {} else {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_5f137288facb1107b491 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_7ff8e5d585f359d44ab5 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491 */ "dll-reference dll_5f137288facb1107b491"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_7ff8e5d585f359d44ab5 */ "dll-reference dll_7ff8e5d585f359d44ab5"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -10478,11 +10478,38 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 var Home = function Home() {
-  return __jsx("div", null, "this is home page", __jsx(_routes__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    route: "/about"
-  }, "About"), __jsx(_routes__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    route: "/contact"
-  }, "Contact"));
+  var divStyle = {
+    textAlign: "center"
+  },
+      buttonStyle = {
+    margin: "10px",
+    padding: "10px",
+    backgroundColor: "#c1c2dd",
+    border: "1px solid #f7f7f7",
+    borderRadius: "5px",
+    cursor: "pointer"
+  };
+  return __jsx("div", {
+    style: divStyle
+  }, __jsx("button", {
+    style: buttonStyle,
+    type: "button",
+    onClick: function onClick() {
+      return _routes__WEBPACK_IMPORTED_MODULE_1__["Router"].pushRoute("/about");
+    }
+  }, "Go to about page"), __jsx("button", {
+    style: buttonStyle,
+    type: "button",
+    onClick: function onClick() {
+      return _routes__WEBPACK_IMPORTED_MODULE_1__["Router"].pushRoute("/contact");
+    }
+  }, "Go to contact page"), __jsx("button", {
+    style: buttonStyle,
+    type: "button",
+    onClick: function onClick() {
+      return _routes__WEBPACK_IMPORTED_MODULE_1__["Router"].pushRoute("/user");
+    }
+  }, "Go to user List"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
@@ -10499,32 +10526,32 @@ var Home = function Home() {
 var routes = __webpack_require__(/*! next-routes */ "./node_modules/next-routes/dist/index.js");
 
 module.exports = routes().add('home', '/', 'index') // description   routes  page
-.add('About Us', '/about', 'aboutUs').add('Contact Us', '/contact', 'contactUs');
+.add('About Us', '/about', 'aboutUs').add('Contact Us', '/contact', 'contactUs').add('User List', '/user', 'user');
 
 /***/ }),
 
-/***/ 0:
-/*!******************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fstartxlabs%2FDesktop%2FDummy%20Project%2FNextProject%2Fnextjstraning%2Fpages%2Findex.js ***!
-  \******************************************************************************************************************************************************************/
+/***/ 1:
+/*!**********************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cshahr%5CDesktop%5CProject%5CMyProject%5CNextJs%5Cnextjs_hello_world%5Cpages%5Cindex.js ***!
+  \**********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fstartxlabs%2FDesktop%2FDummy%20Project%2FNextProject%2Fnextjstraning%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fstartxlabs%2FDesktop%2FDummy%20Project%2FNextProject%2Fnextjstraning%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cshahr%5CDesktop%5CProject%5CMyProject%5CNextJs%5Cnextjs_hello_world%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cshahr%5CDesktop%5CProject%5CMyProject%5CNextJs%5Cnextjs_hello_world%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_5f137288facb1107b491":
+/***/ "dll-reference dll_7ff8e5d585f359d44ab5":
 /*!*******************************************!*\
-  !*** external "dll_5f137288facb1107b491" ***!
+  !*** external "dll_7ff8e5d585f359d44ab5" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_5f137288facb1107b491;
+module.exports = dll_7ff8e5d585f359d44ab5;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
